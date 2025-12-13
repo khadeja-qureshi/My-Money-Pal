@@ -34,17 +34,19 @@ DB_NAME=your_database
 1. cd backend
 2. python -m venv venv
    
--- **Activate virtual environment**
+ **Activate virtual environment**
 - **Windows**: venv\Scripts\activate
 - **macOS/Linux**: source venv/bin/activate
 4. pip install -r req.txt
 5. python app.py
+  
 -Backend will run at: http://127.0.0.1:5000
 
 ## Frontend Setup
 1.  cd frontend
 2.  npm install
 3. npm run dev
+   
 -Frontend will run at: http://localhost:5173
 
 
