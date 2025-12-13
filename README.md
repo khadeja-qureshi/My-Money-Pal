@@ -33,7 +33,7 @@ DB_NAME=your_database
 ## Backend Setup
 1. cd backend
 2. python -m venv venv
- **Activate virtual environment**
+-- **Activate virtual environment**
 - **Windows**: venv\Scripts\activate
 - **macOS/Linux**: source venv/bin/activate
 4. pip install -r req.txt
