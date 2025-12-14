@@ -4,7 +4,7 @@ A personal finance management application to track expenses, budgets, and financ
 ---
 
 ##  Live Demo
-- **Frontend:** (https://my-money-pal.vercel.app/login)  
+- **Frontend:** my-money-pal.vercel.app/login
 
 
 ---
