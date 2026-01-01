@@ -1,22 +1,52 @@
+## My Money Pal
+A personal finance management application to track expenses, budgets, and financial goals. 
 
-## Database Setup:
-1. create a MySQL database with given schema:
-    - Import 'database.sql' into MySQL
-2. update '.env' file in the **backend** folder with your database credentials
+---
 
-## Backend Setup (Flask):
-cd backend
-python -m venv venv
-venv\Scripts\activate  (windows)  OR    source venv/bin/activate (macOS/Linux)
-pip install -r req.txt
+##  Live Demo
+- **Frontend:** my-money-pal.vercel.app/login
 
-## run backend server:
-python app.py
-backend will run at: http://127.0.0.1:5000
 
-## Frontend setup (React + vite):
-cd frontend
-npm install
-npm run dev
-frontend will run at: http://localhost:5173/ 
+---
+
+##  Tech Stack
+
+- **Frontend:** React, Vite, JavaScript, CSS  
+- **Backend:** Python, Flask  
+- **Database:** MySQL    
+
+---
+
+## Database Setup
+
+1. Create a MySQL database.  
+2. Import `database.sql` into your MySQL server.  
+3. Update the `.env` file in the **backend** folder with your database credentials:
+
+```env
+DB_HOST=your_host
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=your_database
+
+```
+## Backend Setup
+1. cd backend
+2. python -m venv venv
+   
+ **Activate virtual environment**
+- **Windows**: venv\Scripts\activate
+- **macOS/Linux**: source venv/bin/activate
+4. pip install -r req.txt
+5. python app.py
+  
+-Backend will run at: http://127.0.0.1:5000
+
+## Frontend Setup
+1.  cd frontend
+2.  npm install
+3. npm run dev
+   
+-Frontend will run at: http://localhost:5173
+
 
