@@ -3,12 +3,6 @@ A personal finance management application to track expenses, budgets, and financ
 
 ---
 
-##  Live Demo
-- **Frontend:** my-money-pal.vercel.app/login
-
-
----
-
 ##  Tech Stack
 
 - **Frontend:** React, Vite, JavaScript, CSS  
