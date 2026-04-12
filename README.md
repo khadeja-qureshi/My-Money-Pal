@@ -1,4 +1,4 @@
-## My Money Pal
+## MY MONEY PAL
 A personal finance management application to track expenses, budgets, and financial goals. 
 
 ---
