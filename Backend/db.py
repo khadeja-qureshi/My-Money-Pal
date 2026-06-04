@@ -4,13 +4,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def clean_env(name, default=""):
+    return (os.getenv(name, default) or "").strip()
+
 def get_connection():
     return mysql.connector.connect(
-        host=os.getenv("DB_HOST"),
-        user=os.getenv("DB_USER"),
-        password=os.getenv("DB_PASSWORD"),
-        database=os.getenv("DB_NAME"),
-        port=int(os.getenv("DB_PORT", "3306")),
+        host=clean_env("DB_HOST"),
+        user=clean_env("DB_USER"),
+        password=clean_env("DB_PASSWORD"),
+        database=clean_env("DB_NAME"),
+        port=int(clean_env("DB_PORT", "3306")),
         ssl_disabled=False,
-        connection_timeout=10
+        connection_timeout=15
     )
